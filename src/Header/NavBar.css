@@ -1,0 +1,41 @@
+header{
+    width: 100%;
+    padding: 1em;
+    text-align: left;
+    left: 0;
+    font-size: 140%;
+  position: absolute;
+    display: flex;
+    align-items: center; /* تراز کردن عمودی عناصر */
+    justify-content: space-between;
+}
+header h1 {
+    font-weight: 600;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex; /* لینک‌ها در یک خط قرار می‌گیرند */
+    list-style: none; /* حذف نقاط لیست */
+    margin: 0;
+    padding: 0
+}
+nav ul li a {
+    text-decoration: none; /* حذف زیرخط لینک‌ها */
+    color: black; /* رنگ لینک‌ها */
+    font-weight: bold;
+    padding: 1rem;
+  
+}
+nav a{
+    transition: all .2s ease;
+    opacity: 0.7;
+
+}
+nav a:hover{
+    opacity: 1;
+}  
+
+
